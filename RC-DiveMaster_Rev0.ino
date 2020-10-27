@@ -37,9 +37,9 @@ long autoTrimTimer = 0;
 int debugLevel = 1;         // Show Debug Information 0=off, 1=on
 int rcSamples = 8;          // Number of samples for RC-Quality
 int ledBrightness = 20;     // Brightness of Status-LEDs, Value 1 to 255
-float batThreshold = 3.9;   // Battery low threshold (in Volts)
-float R1 = 17700.0;         // Real value of resistor R1 (18K)
-float R2 = 9838.0;         // Real value of resistor R2 (10K)
+float batThreshold = 9.0;   // Battery low threshold (in Volts)
+float R1 = 18000.0;         // Real value of resistor R1 (18K)
+float R2 = 10000.0;         // Real value of resistor R2 (10K)
 long autoTrimTimeout = 30000;   // Time to drain the trim tank completely (pump shut-off time) in ms (1000 ms = 1s)
 
 // --Configure start parameters-------------------------------------------------------------------------
