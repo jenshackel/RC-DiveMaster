@@ -3,6 +3,10 @@ Dive Controller for RC-Submarines based on Arduino Nano
 
 It was designed to fit Robert Cook's https://www.thingiverse.com/thing:4560120 (Subnautica Cyclops Submarine).
 
+## Schematics / Parts assembly
+
+![RC DiveMaster Assembly](RC-Divemaster.jpg)
+
 ## Features
 - Control of the trim tank filling
 - Compatible with an analog RC-Receiver e.g. Graupner Superhet C16
