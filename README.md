@@ -20,3 +20,12 @@ It was designed to fit Robert Cook's https://www.thingiverse.com/thing:4560120 (
 
 ## Project Status
 This design is still in an early stage. Report of problems, errors and improvement suggestions is appreciated. 
+
+## BoM / parts list
+- Arduino Nano
+- Step-Down-Module DayPOWER 2596-2
+- Relay module KY-019 (2 EA)
+- Resistor 10k 1/4W
+- Resistor 18k 1/4W
+- Resistor 470R 1/4W
+- Switch for dive tank limit / end.
