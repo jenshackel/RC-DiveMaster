@@ -29,3 +29,4 @@ This design is still in an early stage. Report of problems, errors and improveme
 - Resistor 18k 1/4W
 - Resistor 470R 1/4W
 - Switch for dive tank limit / end.
+- Water ingress sensor, self-made (just two metal pins at the bottom of the acrylic tube)
