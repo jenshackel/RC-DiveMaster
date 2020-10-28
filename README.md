@@ -5,7 +5,7 @@ It was designed to fit Robert Cook's https://www.thingiverse.com/thing:4560120 (
 
 ## Schematics / Parts assembly
 
-![RC DiveMaster Assembly](RC-Divemaster.jpg)
+![RC DiveMaster Assembly](/images/RC-Divemaster.jpg)
 
 ## Features
 - Control of the trim tank (fill / drain)
