@@ -45,8 +45,8 @@ long autoTrimTimeout = 30000;   // Time to drain the trim tank completely (pump 
 // --Configure start parameters-------------------------------------------------------------------------
 void setup() {
   pinMode(PWM_PIN1, INPUT);   // Dive Control
-  pinMode(DTF_PIN1, INPUT);   // Dive Tank Full (DTF)
-  pinMode(WIS_PIN1, INPUT);   // Water Ingress Sensor
+  pinMode(DTF_PIN1, INPUT_PULLUP);   // Dive Tank Full (DTF)
+  pinMode(WIS_PIN1, INPUT_PULLUP);   // Water Ingress Sensor
   pinMode(DIVE_PIN1, OUTPUT); // Dive Relay
   pinMode(SURF_PIN1, OUTPUT); // Surface Relay
   pinMode(LED_PIN1, OUTPUT);  // Neopixel LEDs
