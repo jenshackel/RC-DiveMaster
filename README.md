@@ -32,7 +32,7 @@ This design is still in an early stage. Report of problems, errors and improveme
 - Water ingress sensor, self-made (just two metal pins at the bottom of the acrylic tube)
 
 ## Impressions
-Here's a photo of the first RC-DiveMaste to be fitted into the metric tube design:
+Here's a photo of the first RC-DiveMaster to be fitted into the metric tube design:
 ![Image of RC-DiveMaster](/images/Divemaster_Image_1.jpeg)
 
 And here's the WIS-Sensor for the metric tube design:
