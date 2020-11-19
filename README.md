@@ -33,7 +33,7 @@ This design is still in an early stage. Report of problems, errors and improveme
 
 ## Building tips
 
-Before you start assembling the electronics you should measure the true ohm values of resistor #1 and #2.
+Before you start assembling the electronics you should measure the true ohm values of resistor R1 and R2.
 Put the values into the arduino sketch before uploading. This will increase the precision of the voltage measurement.
 
 ### User defined parameters
@@ -50,10 +50,11 @@ If the Remote Control transmitter is switched of or out of range the signal for 
 Set the brightness of the Status-LED(s). A value from 1 to 255 is possible. Should be set to a high value after system adjustments are completed.
 
 #### float batThreshold = 8.0;
-This variable sets the threshold (in Volts) for Low-Battery state. For a battery pack of 8 NiMH cells ( 9,6V in total) should be set to 8,0V as threshold value.
+This variable sets the threshold (in Volts) for Low-Battery state. For a battery pack of 8 NiMH cells (9,6V in total) should be set to 8,0V as threshold value.
 Other battery types with different cell amount or technology may need another value. Make sure the value fits your battery type.
 
-#### float R1 = 18000.0;  and float R2 = 10000.0;             
+#### float R1 = 18000.0;
+#### float R2 = 10000.0;             
 The resistors R1 and R2 create an voltage devider which is used for battery voltage measurement. To increase accuracy measure the exact value of your resistors BEFORE assembling the electronics. 
 
 #### long autoTrimTimeout = 30000;   
